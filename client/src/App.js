@@ -1,10 +1,15 @@
 import './App.css';
-import Babel from './sandbox/components/Babel';
+import Card from './cards/components/card/Card';
+// import Babel from './sandbox/components/Babel';
+// import Styles from './sandbox/components/Styles';
+// import SxProps from './sandbox/mui-sandbox/SxProps';
 
 function App() {
 	return (
 		<div className="App">
-			<Babel />
+			{/* <Styles /> */}
+			{/* <SxProps /> */}
+			<Card />
 		</div>
 	);
 }
